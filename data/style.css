@@ -7,6 +7,9 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  overflow-x: hidden; /* Hanya cegah scroll horizontal */
+  scroll-behavior: smooth;
+}
 }
 
 .container {
