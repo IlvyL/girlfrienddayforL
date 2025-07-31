@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 function typeWriterEffect() {
   const element = document.querySelector(".typewriter-text");
-  const fullText = `Laras\n\nDulu, kau hadir bagai embun pagi yang lembut, dan menyejukkan hati.\nKini, kau adalah lautan; kadang tenang memeluk bulan, kadang bergelombang menghantam karang.Tapi justru dalam kontras itulah aku menemukan keabadian: cintamu yang tak pernah setengah hati,utuh,dan abadi.\n\nBy cowokmu 31/Juli/2025`;
+  const fullText = `Laras\nDulu,kau hadir bagai embun pagi yang lembut dan menyejukkan hati.\nKini, kau adalah lautan; kadang tenang memeluk bulan, kadang bergelombang menghantam karang.Tapi justru dalam kontras itulah aku menemukan keabadian: cintamu yang tak pernah setengah hati,utuh,dan abadi.\n\nBy cowokmu 31/Juli/2025`;
 
   element.textContent = "";
   let index = 0;
